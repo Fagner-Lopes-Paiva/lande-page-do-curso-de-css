@@ -1,0 +1,31 @@
+/* Estilos personalizados */
+@media only screen and (max-width: 480px) {
+    /* Estilos para smartphones em modo retrato */
+   #conteiner-do-site {
+    width: 50vw;
+   }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Estilos para smartphones em modo paisagem e tablets pequenos */
+    #conteiner-do-site {
+        width: 50vw;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tablets e desktops pequenos */
+    #conteiner-do-site {
+        width: 50vw;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    /* Estilos para desktops médios e grandes */
+    #conteiner-do-site {
+        width: 50vw;
+    }
+
+}

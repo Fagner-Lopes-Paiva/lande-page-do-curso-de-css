@@ -1,0 +1,283 @@
+@import url('/reset.css'); /* reset da pagina */
+
+/* fonte da letra */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ccc;
+    display: block;
+    margin: 0;
+    
+}
+#conteiner-do-site {
+    background-color: #1472b7;
+    width: 1440px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+}
+main, footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 1440px;
+    background-color: black;
+    
+    
+}
+
+/* cabeçãlho */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0));
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    width: 1440px;
+    height: 605px;
+    border-bottom: 2px solid #1472b7;
+}
+#conteiner-da-imagem-de-fundo {
+    background-image: url('/assets/camada-de-fundo-do-page.png');
+    width: 1440px;
+    height: 732px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#conteiner-da-imagem-de-fundo > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 510px;
+    height: 393px;
+    gap: 16px;
+    
+}
+#conteiner-da-imagem-de-fundo > div > img {
+    display: flex;
+    justify-content: center;
+    object-fit: none;
+    object-position: center;
+    width: 284px;
+    height: 214px;
+}
+#circulo-da-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 268px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#titulo-principal {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    color: transparent;
+    background: linear-gradient(to bottom, #33a8db, #1472b7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#conteiner-da-imagem-de-fundo > div > p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: justify;
+    color: #ffffff;
+}
+#butao {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18.78px;
+    padding: 19px 91px 19px 91px;
+    color: transparent;
+    background: linear-gradient(to bottom, #33a8bd, #1472b7);
+    background-color: transparent;
+    background-clip: text;
+    border: 2px solid #33a8db;
+    -webkit-background-clip: text;
+    margin-top: 19px;
+    cursor: pointer;
+}
+p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: justify;
+    color: #ffffff
+}
+/* fim */
+
+/* corpo do site sessão 1*/
+#conteiner-dos-butoes-e-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+}
+#conteiner-dos-textos {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 792px;
+    height: 325px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    gap: 24px;
+}
+#conteiner-dos-textos > h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 5px;
+    color: #33A8DB;
+    width: 477px;
+    height: 38px;
+}
+#conteiner-dos-textos > p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+}
+#conteiner-dos-textos > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+    width: 535px;
+    height: 51px;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    box-shadow: inset -5px 5px 5px #000;
+    cursor: pointer;
+    gap: 5px;
+}
+#conteiner-dos-textos > button > p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+}
+.modulos {
+    color: #33A8DB;
+}
+/* fim */
+
+/* sessão 2 */
+#sessao-da-imagem-de-fundo-da-mulher {
+    position: relative;    
+    border-top: 2px solid #1472b7;
+    border-bottom: 2px solid #1472b7;
+    height: 363px;
+    z-index: 0;
+}
+#conteiner-do-h2 {
+    position: absolute;
+    width: 244px;
+    height: 141px;
+    top: 111px;
+    left: 198px;
+}
+#sessao-da-imagem-de-fundo-da-mulher > div > h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    position: absolute;
+    color: #ffffff;
+    text-shadow: 3px 3px #1472b7;
+    z-index: 5;
+}
+/* fim */
+
+/* sessão 3 */
+#sessao-de-desafios {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #1472b7;
+    gap: 20px;
+
+}
+#sessao-de-desafios > h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #33a8db;
+    width: 746px;
+    height: 76px;
+    margin-top: 80px;
+}
+#sessao-de-desafios > img {
+    width: 659px;
+    height: 429px;
+}
+#sessao-de-desafios > p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+    color: #ffffff;
+    width: 792px;
+    height: 76px;
+    margin-bottom: 80px;
+}
+/* fim */
+
+/* rodape */
+footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+footer > img {
+    width: 310px;
+    height: 44px;
+    margin-top: 59px;
+}
+footer > P {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    margin-top: 3px;
+    margin-bottom: 38px;
+}
+footer > p > a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #33a8bd;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* fim */
